@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc -p .",
+    "prepare": "npm run build",
     "test": "node --test test"
   },
   "dependencies": {
