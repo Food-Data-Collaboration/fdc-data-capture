@@ -1,6 +1,6 @@
 {
-  "name": "dfc-data-capture",
-  "version": "0.0.1",
+  "name": "@fooddatacollaboration/fdc-data-capture",
+  "version": "1.0.0",
   "description": "Aggregate semantic sales data for FDC/DFC compliant platform cooperatives.",
   "main": "lib/index.js",
   "type": "module",
@@ -26,12 +26,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Food-Data-Collaboration/dfc-data-capture.git"
+    "url": "git+https://github.com/Food-Data-Collaboration/fdc-data-capture.git"
   },
   "author": "Jamie Gaehring <jamie@runrig.org> (https://runrig.org/)",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/Food-Data-Collaboration/dfc-data-capture/issues"
+    "url": "https://github.com/Food-Data-Collaboration/fdc-data-capture/issues"
   },
-  "homepage": "https://github.com/Food-Data-Collaboration/dfc-data-capture#readme"
+  "homepage": "https://github.com/Food-Data-Collaboration/fdc-data-capture#readme"
 }
