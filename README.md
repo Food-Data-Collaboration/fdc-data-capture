@@ -2,17 +2,18 @@
 Aggregate semantic sales data for FDC/DFC compliant platform cooperatives.
 
 ## Install
-Currently the FDC DataCapture library requires you install it and a forked
-version of the DFC's TypeScript Connector from GitHub, instead of NPM. This
-should be resolved soon, but for now, you can install them with the following
-command:
+The Data Capture library requires the DFC Connector as a peer dependency, at
+version `1.0.0-alpha.11` or higher (currently designated by the `@next`
+[dist-tag] as of the Data Capture 1.0.0 release):
 
 ```sh
-npm i --save \
-  "git://github.com/Food-Data-Collaboration/fdc-data-capture.git#dist" \
-  "git@github.com:Food-Data-Collaboration/connector-typescript.git#next"
-
+# Install the DFC Connector w/ @next dist-tag
+npm i @datafoodconsortium/connector@next
+# Install the FDC Data Capture library
+npm i @fooddatacollaboration/fdc-data-capture
 ```
+
+[dist-tag]: https://docs.npmjs.com/cli/v11/commands/npm-dist-tag
 
 ## Usage
 
