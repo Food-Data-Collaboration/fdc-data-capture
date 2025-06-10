@@ -1,6 +1,6 @@
 import { Buffer } from 'node:buffer';
 import { Connector } from '@datafoodconsortium/connector';
-import useDataCapture from '../lib/useDataCapture.js';
+import { useDataCapture } from '@fooddatacollaboration/fdc-data-capture';
 
 const connector = new Connector();
 const address = connector.createAddress({
