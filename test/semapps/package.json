@@ -4,7 +4,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docker": "npm run docker:build && npm run docker:test",
+    "docker:build": "docker build -t semapps .",
+    "docker:test": "docker run --rm --network=data-capture_triplestore -it semapps",
+    "test": "docker compose -f ../../docker-compose.test.yml up -d && npm run docker && docker compose -f ../../docker-compose.test.yml down"
   },
   "keywords": [],
   "author": "",
